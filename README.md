@@ -1,17 +1,14 @@
 
 # Chat-App
-* Link til azure website: https://messageapp-bhass.azurewebsites.net/
-
 ## Staring the Application
 Clone the repository to your computer
-open src/main/messenger-app-react and write npm install and npm run build
-Start Docker
-Update app properties
-start the main class
+## Step 1 npm
+open src/main/messenger-app-react in your terminal and write
+```
+npm install && npm run build
+```
 
-
-
-### Docker
+## Step 2 Docker
 
 This project is built on Microsoft SQL Server.
 
@@ -22,9 +19,15 @@ docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong(!)Password" -p 14
 ```
 Replace <yourStrong(!)Password> with a strong password of your choice.
 
+## Step 3 Update application.properties
+Update the application.properties file with your password
+```application.properties
+dataSource.url=jdbc:sqlserver://localhost:1433;encrypt=true;trustServerCertificate=true
+dataSource.username=sa
+dataSource.password=Insert your password here
+```
 
-
-
-* Link to Original GitHub Repo https://github.com/kristiania-pgr209-2022/pg209exam-vytre/
+## Step 4 Start the main class
+Run the MessageAppServer.java class
 
 
