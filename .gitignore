@@ -1,0 +1,10 @@
+/.idea/
+/target/
+/src/main/resources/messengerApp/
+/application.properties
+/.iml/
+node/
+/dependency-reduced-pom.xml
+/logs/
+src/local
+/MessageAppServer.iml

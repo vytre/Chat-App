@@ -1,0 +1,10 @@
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence" version="3.0">
+    <persistence-unit name="messageApp">
+        <non-jta-data-source>jdbc/dataSource</non-jta-data-source>
+        <class>no.kristiania.messageApp.database.entities.GroupListEntity</class>
+        <class>no.kristiania.messageApp.database.entities.MessageEntity</class>
+        <class>no.kristiania.messageApp.database.entities.UserEntity</class>
+        <class>no.kristiania.messageApp.database.entities.UserGroupEntity</class>
+    </persistence-unit>
+
+</persistence>
