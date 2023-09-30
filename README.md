@@ -5,7 +5,10 @@ Clone the repository to your computer
 ## Step 1 npm
 open src/main/messenger-app-react in your terminal and write
 ```
-npm install && npm run build
+npm install 
+```
+```
+npm run build
 ```
 
 ## Step 2 Docker
@@ -19,6 +22,8 @@ docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong(!)Password" -p 14
 ```
 Replace <yourStrong(!)Password> with a strong password of your choice.
 
+Important note: This password needs to include at least 8 characters of at least three of these four categories: uppercase letters, lowercase letters, numbers and non-alphanumeric symbols.
+
 ## Step 3 Update application.properties
 Update the application.properties file with your password
 ```application.properties
@@ -30,4 +35,4 @@ dataSource.password=Insert your password here
 ## Step 4 Start the main class
 Run the MessageAppServer.java class
 
-
+You can access the application at http://localhost:8080/
