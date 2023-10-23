@@ -3,15 +3,13 @@ INSERT group_list VALUES ('Gaming Chat');
 INSERT group_list VALUES ('Sport Chat');
 
 INSERT users VALUES ('Vegard','vegard@gmail.com','90432921');
-INSERT users VALUES ('Marius','sander@gmail.com','20583431');
+INSERT users VALUES ('Marius','marius@gmail.com','20583431');
 INSERT users VALUES ('Bjørnar', N'Bjørnar@gmail.com', '90583921');
 
 -- groupid userid
 INSERT INTO users_group VALUES (1,1);
 INSERT INTO users_group VALUES (1,3);
-INSERT INTO users_group VALUES (1,3);
 INSERT INTO users_group VALUES (2,2);
-INSERT INTO users_group VALUES (2,3);
 INSERT INTO users_group VALUES (2,3);
 INSERT INTO users_group VALUES (2,3);
 INSERT INTO users_group VALUES (3,1);
