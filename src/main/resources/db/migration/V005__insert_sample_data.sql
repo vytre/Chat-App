@@ -11,7 +11,6 @@ INSERT INTO users_group VALUES (1,1);
 INSERT INTO users_group VALUES (1,3);
 INSERT INTO users_group VALUES (2,2);
 INSERT INTO users_group VALUES (2,3);
-INSERT INTO users_group VALUES (2,3);
 INSERT INTO users_group VALUES (3,1);
 
 
